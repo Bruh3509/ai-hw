@@ -1,0 +1,74 @@
+2025-05-15 19:05:54,651 - INFO - === Starting API Validation ===
+2025-05-15 19:05:54,651 - INFO - Starting API request to https://fakestoreapi.com/products
+2025-05-15 19:05:54,938 - INFO - API Response Status Code: 200
+2025-05-15 19:05:54,939 - INFO - Retrieved 20 products
+2025-05-15 19:05:54,939 - INFO - 
+Validating Product 1 (ID: 1)
+2025-05-15 19:05:54,939 - INFO - Product 1 passed all validations
+2025-05-15 19:05:54,939 - INFO - 
+Validating Product 2 (ID: 2)
+2025-05-15 19:05:54,939 - INFO - Product 2 passed all validations
+2025-05-15 19:05:54,939 - INFO - 
+Validating Product 3 (ID: 3)
+2025-05-15 19:05:54,939 - INFO - Product 3 passed all validations
+2025-05-15 19:05:54,939 - INFO - 
+Validating Product 4 (ID: 4)
+2025-05-15 19:05:54,939 - INFO - Product 4 passed all validations
+2025-05-15 19:05:54,939 - INFO - 
+Validating Product 5 (ID: 5)
+2025-05-15 19:05:54,939 - INFO - Product 5 passed all validations
+2025-05-15 19:05:54,939 - INFO - 
+Validating Product 6 (ID: 6)
+2025-05-15 19:05:54,939 - INFO - Product 6 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 7 (ID: 7)
+2025-05-15 19:05:54,940 - INFO - Product 7 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 8 (ID: 8)
+2025-05-15 19:05:54,940 - INFO - Product 8 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 9 (ID: 9)
+2025-05-15 19:05:54,940 - INFO - Product 9 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 10 (ID: 10)
+2025-05-15 19:05:54,940 - INFO - Product 10 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 11 (ID: 11)
+2025-05-15 19:05:54,940 - INFO - Product 11 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 12 (ID: 12)
+2025-05-15 19:05:54,940 - INFO - Product 12 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 13 (ID: 13)
+2025-05-15 19:05:54,940 - INFO - Product 13 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 14 (ID: 14)
+2025-05-15 19:05:54,940 - INFO - Product 14 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 15 (ID: 15)
+2025-05-15 19:05:54,940 - INFO - Product 15 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 16 (ID: 16)
+2025-05-15 19:05:54,940 - INFO - Product 16 passed all validations
+2025-05-15 19:05:54,940 - INFO - 
+Validating Product 17 (ID: 17)
+2025-05-15 19:05:54,941 - INFO - Product 17 passed all validations
+2025-05-15 19:05:54,941 - INFO - 
+Validating Product 18 (ID: 18)
+2025-05-15 19:05:54,941 - INFO - Product 18 passed all validations
+2025-05-15 19:05:54,941 - INFO - 
+Validating Product 19 (ID: 19)
+2025-05-15 19:05:54,941 - INFO - Product 19 passed all validations
+2025-05-15 19:05:54,941 - INFO - 
+Validating Product 20 (ID: 20)
+2025-05-15 19:05:54,941 - INFO - Product 20 passed all validations
+2025-05-15 19:05:54,941 - INFO - 
+Validation completed. Found 0 products with defects
+2025-05-15 19:05:54,941 - INFO - 
+=== Validation Summary ===
+2025-05-15 19:05:54,941 - INFO - Total Products: 20
+2025-05-15 19:05:54,941 - INFO - Products with Defects: 0
+2025-05-15 19:05:54,941 - INFO - 
+No defects found in the products!
+2025-05-15 19:05:54,941 - INFO - 
+Log file saved to: logs/validation_20250515_190554.log
