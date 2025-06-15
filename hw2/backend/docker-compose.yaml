@@ -1,0 +1,31 @@
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: postgres-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=mydatabase
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  backend-app:
+    build: .
+    container_name: backend-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres-db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/mydatabase
+      - SPRING_DATASOURCE_USERNAME=myuser
+      - SPRING_DATASOURCE_PASSWORD=mypassword
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=validate # Use Flyway to manage schema
+      - SPRING_FLYWAY_ENABLED=true
+      - APPLICATION_SECURITY_JWT_SECRET_KEY=4D6251655468576D5A7134743777217A25432A462D4A614E645267556B587032
+      - APPLICATION_SECURITY_JWT_EXPIRATION=86400000 # 24 hours
+
+volumes:
+  postgres-data:
